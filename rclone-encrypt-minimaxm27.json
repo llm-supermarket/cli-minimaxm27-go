@@ -1,11 +1,11 @@
 {
   "homepage": "https://github.com/llm-supermarket/cli-minimaxm27-go",
   "description": "CLI tool to encrypt and decrypt files using rclone encryption defaults",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/llm-supermarket/cli-minimaxm27-go/releases/download/v1.0.1/rclone-encrypt-minimaxm27-windows-amd64.exe",
-      "hash": "e8c8407cecb19774566b1eecc373fecf3a7b80043e604829063ccb6c2b755729",
+      "url": "https://github.com/llm-supermarket/cli-minimaxm27-go/releases/download/v1.0.2/rclone-encrypt-minimaxm27-windows-amd64.exe",
+      "hash": "60cf0b92a9fb30ca43679c8c0545d6f6611ec33894098f85b7202ce6a2317760",
       "bin": [
         [
           "rclone-encrypt-minimaxm27-windows-amd64.exe",
