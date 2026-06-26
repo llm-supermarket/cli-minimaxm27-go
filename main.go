@@ -28,8 +28,7 @@ const (
 	scryptR         = 8
 	scryptP         = 1
 	keyLen          = 80
-	defaultSalt     = "rclone"
-)
+	)
 
 var (
 	password      string
@@ -58,9 +57,6 @@ func init() {
 }
 
 func deriveKeys(password, salt string) ([32]byte, [32]byte, [16]byte, error) {
-	if salt == "" {
-		salt = defaultSalt
-	}
 	saltBytes := []byte(salt)
 
 	keyMaterial, err := scrypt.Key([]byte(password), saltBytes, scryptN, scryptR, scryptP, keyLen)
